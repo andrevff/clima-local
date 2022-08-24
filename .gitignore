@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 
 # Chaves de API
-.env
+.env.local

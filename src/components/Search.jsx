@@ -56,7 +56,7 @@ export function Search(){
                                 </div>
                                 <div>
                                     <h3>{weatherCurrent.current.condition.text}</h3>
-                                    <div className="lead d-flex">
+                                    <div className="lead">
                                         <p className="mr-3">Temperatura atual: <b>{weatherCurrent.current.temp_c}°C</b></p>
                                         <p className="mr-3">Sensação Térmica: <b>{weatherCurrent.current.feelslike_c}°C</b></p>
                                         <p className="mr-3">Humidade relativa do ar: <b>{weatherCurrent.current.humidity}%</b></p>
