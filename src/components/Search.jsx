@@ -10,7 +10,7 @@ export function Search(){
         setCity(e.target.value)
     }
     const handleSearch = () => {
-        fetch(`http://api.weatherapi.com/v1/current.json?key=264484e4b6864c12a1e195308222308&q=${city}&lang=pt`)
+        fetch(`https://api.weatherapi.com/v1/current.json?key=264484e4b6864c12a1e195308222308&q=${city}&lang=pt`)
         .then((response) => {
             if(response.status === 200){
                 return response.json()
