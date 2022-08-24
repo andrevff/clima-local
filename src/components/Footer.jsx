@@ -2,7 +2,7 @@ import { BsGithub, BsLinkedin } from "react-icons/bs"
 
 export function Footer(){
     return (
-        <div className="pt-4 pl-5 text-white">
+        <div className="pt-4 pl-3 text-white">
             <p>© Todos os direitos reservados - André Ferreira</p>
             <div className="d-flex mb-4">
                 <a href="https://github.com/andrevff" target="_blank" className="">
